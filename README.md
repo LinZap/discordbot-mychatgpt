@@ -28,7 +28,7 @@ node index.js
 ```
 
 
-### Add to Server
+### Add bot to Server
 
 Edit `{ClientID}` and copy this url and paste to browser 
 
