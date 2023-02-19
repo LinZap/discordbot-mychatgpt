@@ -1,5 +1,7 @@
 # DiscordBot MyChatGPT
 
+discord bot
+
 ## Install
 
 ```
@@ -8,9 +10,9 @@ cd discordbot-mychatgpt
 npm install
 ```
 
-## Conif
+## Conifg
 
-`.env`
+add `.env` file 
 
 ```
 TOKEN=""
@@ -25,6 +27,14 @@ node reg.js
 node index.js
 ```
 
+
+### Add to Server
+
+Edit `{ClientID}` and copy this url and paste to browser 
+
+```
+https://discord.com/api/oauth2/authorize?client_id={ClientID}&permissions=2147485696&scope=bot%20applications.commands
+```
 
 # LICENSE 
 
